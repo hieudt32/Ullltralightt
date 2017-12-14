@@ -1,0 +1,105 @@
+{
+    "TextureCategory": [
+        {
+            "TextureCategoryName": "Enamel",
+            "TextureCategoryId": "cat_00",
+            "Texture": [
+                {"TextureName": "00"}, {"TextureName": "01"}, {"TextureName": "02"}, {"TextureName": "03"}, {"TextureName": "04"},
+                {"TextureName": "05"}, {"TextureName": "06"}, {"TextureName": "07"}, {"TextureName": "08"}, {"TextureName": "09"},
+                {"TextureName": "10"}, {"TextureName": "11"}, {"TextureName": "12"}, {"TextureName": "13"}, {"TextureName": "14"},
+                {"TextureName": "15"}, {"TextureName": "16"}, {"TextureName": "17"}
+            ]
+        },
+        {
+            "TextureCategoryName": "Grain & Grit",
+            "TextureCategoryId": "cat_01",
+            "Texture": [
+                {"TextureName": "00"}, {"TextureName": "01"}, {"TextureName": "02"}, {"TextureName": "03"}, {"TextureName": "04"},
+                {"TextureName": "05"}, {"TextureName": "06"}, {"TextureName": "07"}, {"TextureName": "08"}, {"TextureName": "09"},
+                {"TextureName": "10"}, {"TextureName": "11"}, {"TextureName": "12"}
+            ]
+        }
+    ],
+
+    "Blend": [
+        {"BlendName": "Difference"}, {"BlendName": "Color Burn"}, {"BlendName": "Color Dodge"}, {"BlendName": "Darken"},
+        {"BlendName": "Dissolve"}, {"BlendName": "Lighten"}, {"BlendName": "Add"}, {"BlendName": "Divide"},
+        {"BlendName": "Multiply"}, {"BlendName": "Overlay"}, {"BlendName": "Screen"}, {"BlendName": "Alpha"},
+        {"BlendName": "Color"}, {"BlendName": "Linear Burn"}, {"BlendName": "Soft Light"}, {"BlendName": "Chroma Key"},
+        {"BlendName": "Exclusion"}, {"BlendName": "Hard Light"}
+    ],
+    "FilterCategory": [
+        {
+            "FilterCategoryName": "Original",
+            "FilterCategoryId": "cat_00",
+            "Filter": [
+                {"FilterName": "XX0", "FilterId": "00"}, {"FilterName": "XX1", "FilterId": "01"}, {"FilterName": "XX2", "FilterId": "02"},
+                {"FilterName": "XX3", "FilterId": "03"}, {"FilterName": "XX4", "FilterId": "04"}, {"FilterName": "XX5", "FilterId": "05"},
+                {"FilterName": "XX6", "FilterId": "06"}, {"FilterName": "XX7", "FilterId": "07"}, {"FilterName": "XX8", "FilterId": "08"},
+                {"FilterName": "XX9", "FilterId": "09"}, {"FilterName": "XX10", "FilterId": "10"}, {"FilterName": "XX11", "FilterId": "11"},
+                {"FilterName": "XX12", "FilterId": "12"}, {"FilterName": "XX13", "FilterId": "13"}, {"FilterName": "XX14", "FilterId": "14"},
+                {"FilterName": "XX15", "FilterId": "15"}, {"FilterName": "XX16", "FilterId": "16"}, {"FilterName": "XX17", "FilterId": "17"},
+                {"FilterName": "XX18", "FilterId": "18"}, {"FilterName": "XX19", "FilterId": "19"}, {"FilterName": "XX20", "FilterId": "20"},
+                {"FilterName": "XX21", "FilterId": "21"}, {"FilterName": "XX22", "FilterId": "22"}, {"FilterName": "XX23", "FilterId": "23"},
+                {"FilterName": "XX24", "FilterId": "24"}, {"FilterName": "XX25", "FilterId": "25"}, {"FilterName": "XX26", "FilterId": "26"}
+            ]
+        },
+        {
+            "FilterCategoryName": "Guest",
+            "FilterCategoryId": "cat_01",
+            "Filter": [
+                {"FilterName": "XX0", "FilterId": "00"}, {"FilterName": "XX1", "FilterId": "01"}, {"FilterName": "XX2", "FilterId": "02"},
+                {"FilterName": "XX3", "FilterId": "03"}, {"FilterName": "XX4", "FilterId": "04"}, {"FilterName": "XX5", "FilterId": "05"},
+                {"FilterName": "XX6", "FilterId": "06"}, {"FilterName": "XX7", "FilterId": "07"}, {"FilterName": "XX8", "FilterId": "08"},
+                {"FilterName": "XX9", "FilterId": "09"}, {"FilterName": "XX10", "FilterId": "10"}, {"FilterName": "XX11", "FilterId": "11"},
+                {"FilterName": "XX12", "FilterId": "12"}, {"FilterName": "XX13", "FilterId": "13"}
+            ]
+        },
+        {
+            "FilterCategoryName": "Spring",
+            "FilterCategoryId": "cat_02",
+            "Filter": [
+                {"FilterName": "XX0", "FilterId": "00"}, {"FilterName": "XX1", "FilterId": "01"}, {"FilterName": "XX2", "FilterId": "02"},
+                {"FilterName": "XX3", "FilterId": "03"}, {"FilterName": "XX4", "FilterId": "04"}, {"FilterName": "XX5", "FilterId": "05"},
+                {"FilterName": "XX6", "FilterId": "06"}, {"FilterName": "XX7", "FilterId": "07"}, {"FilterName": "XX8", "FilterId": "08"},
+                {"FilterName": "XX9", "FilterId": "09"}, {"FilterName": "XX10", "FilterId": "10"}, {"FilterName": "XX11", "FilterId": "11"},
+                {"FilterName": "XX12", "FilterId": "12"}, {"FilterName": "XX13", "FilterId": "13"}, {"FilterName": "XX14", "FilterId": "14"},
+                {"FilterName": "XX15", "FilterId": "15"}, {"FilterName": "XX16", "FilterId": "16"}, {"FilterName": "XX17", "FilterId": "17"},
+                {"FilterName": "XX18", "FilterId": "18"}, {"FilterName": "XX19", "FilterId": "19"}, {"FilterName": "XX20", "FilterId": "20"},
+                {"FilterName": "XX21", "FilterId": "21"}
+            ]
+        },
+        {
+            "FilterCategoryName": "Summer",
+            "FilterCategoryId": "cat_03",
+            "Filter": [
+                {"FilterName": "XX0", "FilterId": "00"}, {"FilterName": "XX1", "FilterId": "01"}, {"FilterName": "XX2", "FilterId": "02"},
+                {"FilterName": "XX3", "FilterId": "03"}, {"FilterName": "XX4", "FilterId": "04"}, {"FilterName": "XX5", "FilterId": "05"},
+                {"FilterName": "XX6", "FilterId": "06"}, {"FilterName": "XX7", "FilterId": "07"}, {"FilterName": "XX8", "FilterId": "08"},
+                {"FilterName": "XX9", "FilterId": "09"}, {"FilterName": "XX10", "FilterId": "10"}, {"FilterName": "XX11", "FilterId": "11"},
+                {"FilterName": "XX12", "FilterId": "12"}, {"FilterName": "XX13", "FilterId": "13"}, {"FilterName": "XX14", "FilterId": "14"}
+            ]
+        },
+        {
+            "FilterCategoryName": "Autumn",
+            "FilterCategoryId": "cat_04",
+            "Filter": [
+                {"FilterName": "XX0", "FilterId": "00"}, {"FilterName": "XX1", "FilterId": "01"}, {"FilterName": "XX2", "FilterId": "02"},
+                {"FilterName": "XX3", "FilterId": "03"}, {"FilterName": "XX4", "FilterId": "04"}, {"FilterName": "XX5", "FilterId": "05"},
+                {"FilterName": "XX6", "FilterId": "06"}, {"FilterName": "XX7", "FilterId": "07"}, {"FilterName": "XX8", "FilterId": "08"}
+            ]
+        },
+        {
+            "FilterCategoryName": "Winter",
+            "FilterCategoryId": "cat_05",
+            "Filter": [
+                {"FilterName": "XX0", "FilterId": "00"}, {"FilterName": "XX1", "FilterId": "01"}, {"FilterName": "XX2", "FilterId": "02"},
+                {"FilterName": "XX3", "FilterId": "03"}, {"FilterName": "XX4", "FilterId": "04"}, {"FilterName": "XX5", "FilterId": "05"},
+                {"FilterName": "XX6", "FilterId": "06"}, {"FilterName": "XX7", "FilterId": "07"}, {"FilterName": "XX8", "FilterId": "08"},
+                {"FilterName": "XX9", "FilterId": "09"}, {"FilterName": "XX10", "FilterId": "10"}, {"FilterName": "XX11", "FilterId": "11"},
+                {"FilterName": "XX12", "FilterId": "12"}, {"FilterName": "XX13", "FilterId": "13"}, {"FilterName": "XX14", "FilterId": "14"},
+                {"FilterName": "XX15", "FilterId": "15"}
+            ]
+        }
+    ]
+}

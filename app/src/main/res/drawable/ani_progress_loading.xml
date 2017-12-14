@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="30" android:drawable="@drawable/loader_00" />
+    <item android:duration="30" android:drawable="@drawable/loader_01" />
+    <item android:duration="30" android:drawable="@drawable/loader_02" />
+    <item android:duration="30" android:drawable="@drawable/loader_03" />
+    <item android:duration="30" android:drawable="@drawable/loader_04" />
+    <item android:duration="30" android:drawable="@drawable/loader_05" />
+    <item android:duration="30" android:drawable="@drawable/loader_06" />
+    <item android:duration="30" android:drawable="@drawable/loader_07" />
+    <item android:duration="30" android:drawable="@drawable/loader_08" />
+    <item android:duration="30" android:drawable="@drawable/loader_09" />
+    <item android:duration="30" android:drawable="@drawable/loader_10" />
+    <item android:duration="30" android:drawable="@drawable/loader_11" />
+    <item android:duration="30" android:drawable="@drawable/loader_12" />
+    <item android:duration="30" android:drawable="@drawable/loader_13" />
+    <item android:duration="30" android:drawable="@drawable/loader_14" />
+    <item android:duration="30" android:drawable="@drawable/loader_15" />
+    <item android:duration="30" android:drawable="@drawable/loader_16" />
+    <item android:duration="30" android:drawable="@drawable/loader_17" />
+    <item android:duration="30" android:drawable="@drawable/loader_18" />
+    <item android:duration="30" android:drawable="@drawable/loader_19" />
+    <item android:duration="30" android:drawable="@drawable/loader_20" />
+    <item android:duration="30" android:drawable="@drawable/loader_21" />
+    <item android:duration="30" android:drawable="@drawable/loader_22" />
+    <item android:duration="30" android:drawable="@drawable/loader_23" />
+    <item android:duration="30" android:drawable="@drawable/loader_24" />
+</animation-list>

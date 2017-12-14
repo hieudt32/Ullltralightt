@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@android:color/black"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/progress_image_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitCenter"
+        android:layout_above="@+id/inline_controls_layout"
+        android:layout_alignParentTop="true" />
+    <com.abeautifulmess.colorstory.GPUImageView
+        android:id="@+id/gpuSurface"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/inline_controls_layout"
+        android:layout_alignParentTop="true" />
+    <FrameLayout
+        android:id="@+id/overlayView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/inline_controls_layout" />
+    <FrameLayout
+        android:id="@+id/inline_controls_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/filters" />
+    <HorizontalScrollView
+        android:layout_gravity="center"
+        android:id="@+id/filters"
+        android:background="@android:color/black"
+        android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:fillViewport="false"
+        android:layout_above="@+id/bottom_menu_frame"
+        android:layout_centerVertical="true">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:id="@+id/transformation_list"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" />
+    </HorizontalScrollView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/bottom_menu_frame"
+        android:background="@android:color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="90.0dip"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:textSize="14.0sp"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/mBackPurchased"
+                android:padding="5.0dip"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:text="BACK"
+                android:drawableLeft="@drawable/icon_back"
+                android:drawablePadding="5.0dip"
+                android:onClick="onBackTransformation" />
+            <Button
+                android:textSize="14.0sp"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/continuetrasform"
+                android:background="@android:color/black"
+                android:paddingLeft="40.0dip"
+                android:paddingRight="40.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONTINUE"
+                android:onClick="goToFilters" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/loading_panel"
+        android:background="#ff333333"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <android.support.v4.widget.ContentLoadingProgressBar
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" style="?android:attr/progressBarStyleLarge" />
+    </RelativeLayout>
+</RelativeLayout>

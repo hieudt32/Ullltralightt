@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ultralight</string>
+
+    <string name="importing">importing</string>
+    <string name="saving">saving</string>
+    <string name="merging">merging</string>
+    <string name="opening">opening CORNERS</string>
+</resources>

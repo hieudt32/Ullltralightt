@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorMain">#6bbe62</color>
+    <color name="colorBackground">#5a5a5a</color>
+    <color name="colorBackground1">#f2f2f2</color>
+    <color name="colorBackground2">#323232</color>
+    <color name="colorTextActive">#000000</color>
+
+    <color name="colorNavBar">#d8d8d8</color>
+    <color name="colorNavBarUnder">#b6b6b6</color>
+
+    <color name="button_active">#5a5a5a</color>
+    <color name="button_deactive">#323232</color>
+
+    <color name="text_color_active">#00ffd9</color>
+    <color name="text_color_deactive">#b6b6b6</color>
+    <color name="text_blur">#c7bebe</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="item_selected">#55cccaa1</color>
+    <color name="item_deselected">#55000000</color>
+</resources>
